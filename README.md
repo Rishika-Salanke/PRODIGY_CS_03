@@ -1,7 +1,24 @@
-A tool to check complexity of Password.
-It is implemented using regular expressions library in python,
-it is very simple tool which checks the complexity of password and scores it on the scale of 1-5.
-if the password score is 1,2 it is said to be weak,
-if it is 3,4 it is said to be moderate,
-if the score is 5 then it is said to be strong password.
-also this tool gives feedback on how to improve the strength of your password.
+This project is a simple Python-based tool to evaluate password strength.
+Using Python’s `re` library, the tool analyzes a password, scores its complexity on a scale of 1-5, and provides feedback for improving weak or moderate passwords.
+
+How It Works:
+The tool uses regular expressions to assess various password characteristics, such as length, use of upper and lowercase letters, numbers, and special characters.
+Based on these checks, it assigns a score to the password and categorizes its strength.
+
+Scoring Criteria
+- **Score 1-2:** Weak password
+- **Score 3-4:** Moderate password
+- **Score 5:** Strong password
+
+Feedback
+The tool provides customized feedback to help users strengthen weak or moderate passwords by recommending specific improvements.
+
+Prerequisites
+This tool requires Python and the `re` library (included in Python by default).
+
+Installation
+Clone this repository and run the script in any Python environment.
+
+```bash
+git clone https://github.com/yourusername/password-complexity-checker.git
+cd password-complexity-checker
